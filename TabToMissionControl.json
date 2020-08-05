@@ -16,7 +16,7 @@
                 ],
                 "to_if_held_down": [
                     {
-                        "key_code": "mission_control2",
+                        "key_code": "mission_control",
                         "halt": true
                     }
                 ]
