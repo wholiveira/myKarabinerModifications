@@ -1,4 +1,5 @@
 {
+  "ImportURL:": "karabiner://karabiner/assets/complex_modifications/import?url=file:///Users/owe/Downloads/OptNum.json",
   "title": "Option # to Command #",
   "rules": [
     {
@@ -159,17 +160,28 @@
           "from": {
             "key_code": "f1",
             "modifiers": {
-              "optional": [
-                "any"
-              ]
+              "optional": ["any"]
             }
           },
           "to": [
             {
               "key_code": "o",
-              "modifiers": [
-                "left_command","left_shift"
-              ]
+              "modifiers": ["left_command","left_shift"]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f2",
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "o",
+              "modifiers": ["left_command","left_shift"]
             }
           ]
         }
