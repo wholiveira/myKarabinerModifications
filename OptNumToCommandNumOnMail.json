@@ -157,7 +157,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "illumination_decrement",
+            "key_code": "f1",
             "modifiers": {
               "optional": [
                 "any"
@@ -166,9 +166,9 @@
           },
           "to": [
             {
-              "key_code": "h",
+              "key_code": "o",
               "modifiers": [
-                "left_command"
+                "left_command","left_shift"
               ]
             }
           ]
